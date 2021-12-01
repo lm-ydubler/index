@@ -10,5 +10,6 @@ on:
 jobs:
   update_index:
     name: 'Update Index'
-    uses: StackStorm-Exchange/ci/.github/workflows/index-update.yaml@gha
+    uses: lm-ydubler/ci/.github/workflows/index-update.yaml@gha
+    #uses: StackStorm-Exchange/ci/.github/workflows/index-update.yaml@gha
     #with:
