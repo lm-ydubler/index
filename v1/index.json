@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "generated_ts": 1637685654,
-        "hash": "969145d6f5c8ae6941f4811c5ce5d350"
+        "generated_ts": 1638385428,
+        "hash": "ca66bfd4066c2a991cd9246e132e1418"
     },
     "packs": {
         "acos": {
@@ -10093,12 +10093,11 @@
             ],
             "name": "libcloud",
             "python_versions": [
-                "2",
                 "3"
             ],
             "ref": "libcloud",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-libcloud",
-            "version": "0.6.0",
+            "version": "1.0.0",
             "versions": [
                 "0.6.0",
                 "0.5.0",
@@ -13530,12 +13529,11 @@
             ],
             "name": "python3_test",
             "python_versions": [
-                "2",
                 "3"
             ],
             "ref": "python3_test",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-python3_test",
-            "version": "0.1.0",
+            "version": "1.0.0",
             "versions": [
                 "0.1.1",
                 "0.1.0"
@@ -15028,6 +15026,72 @@
                 "0.1.1",
                 "0.1.0"
             ]
+        },
+        "test": {
+            "author": "st2-dev",
+            "content": {
+                "actions": {
+                    "count": 2,
+                    "resources": [
+                        "list_vms",
+                        "parse"
+                    ]
+                },
+                "tests": {
+                    "count": 1,
+                    "resources": [
+                        "test_action_parse_xml.py"
+                    ]
+                }
+            },
+            "description": "st2 pack to test package management pipeline",
+            "email": "info@stackstorm.com",
+            "keywords": [
+                "some",
+                "search",
+                "terms"
+            ],
+            "name": "test",
+            "python_versions": [
+                "3"
+            ],
+            "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-test",
+            "version": "1.0.0",
+            "versions": [
+                "2.0.0",
+                "1.2.0",
+                "1.0.0",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0"
+            ]
+        },
+        "test_content_version": {
+            "author": "st2-dev",
+            "content": {
+                "actions": {
+                    "count": 3,
+                    "resources": [
+                        "local_script_runner_print_version",
+                        "python_runner_print_version",
+                        "python_runner_print_version_local_import"
+                    ]
+                }
+            },
+            "description": "StackStorm pack for testing \"content_version\" functionality",
+            "email": "info@stackstorm.com",
+            "keywords": [
+                "test"
+            ],
+            "name": "test_content_version",
+            "python_versions": [
+                "3"
+            ],
+            "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-test_content_version",
+            "version": "1.0.0"
         },
         "thehive": {
             "author": "agix",

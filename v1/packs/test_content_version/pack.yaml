@@ -1,0 +1,16 @@
+name: test_content_version
+description: StackStorm pack for testing "content_version" functionality
+keywords:
+- test
+version: 1.0.0
+author: st2-dev
+email: info@stackstorm.com
+python_versions:
+- '3'
+content:
+  actions:
+    count: 3
+    resources:
+    - local_script_runner_print_version
+    - python_runner_print_version
+    - python_runner_print_version_local_import
