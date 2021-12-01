@@ -1,0 +1,8 @@
+{
+    "description": "Action which prints pack version.",
+    "enabled": true,
+    "entry_point": "print_version.py",
+    "name": "python_runner_print_version",
+    "parameters": {},
+    "runner_type": "python-script"
+}

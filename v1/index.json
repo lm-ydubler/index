@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "generated_ts": 1638385428,
-        "hash": "ca66bfd4066c2a991cd9246e132e1418"
+        "generated_ts": 1638392791,
+        "hash": "87d9436a178d3a32b13d97a9373ccbed"
     },
     "packs": {
         "acos": {
@@ -613,10 +613,11 @@
             "email": "tbraly@brocade.com",
             "name": "astral",
             "python_versions": [
+                "2",
                 "3"
             ],
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-astral",
-            "version": "1.0.0",
+            "version": "0.2.2",
             "versions": [
                 "1.0.0",
                 "0.2.2",
@@ -4489,9 +4490,6 @@
                 "s3"
             ],
             "name": "aws_s3",
-            "python_versions": [
-                "3"
-            ],
             "ref": "aws_s3",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-aws_s3",
             "version": "2.0.3",
@@ -7545,9 +7543,6 @@
                 "security"
             ],
             "name": "fortinet",
-            "python_versions": [
-                "3"
-            ],
             "ref": "fortinet",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-fortinet",
             "version": "0.0.3",
@@ -9464,9 +9459,6 @@
                 "ticket management"
             ],
             "name": "Kayako",
-            "python_versions": [
-                "2"
-            ],
             "ref": "kayako",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-kayako",
             "version": "0.1.0",
@@ -10093,11 +10085,12 @@
             ],
             "name": "libcloud",
             "python_versions": [
+                "2",
                 "3"
             ],
             "ref": "libcloud",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-libcloud",
-            "version": "1.0.0",
+            "version": "0.6.0",
             "versions": [
                 "0.6.0",
                 "0.5.0",
@@ -10245,6 +10238,7 @@
             ],
             "name": "manageiq",
             "python_versions": [
+                "2",
                 "3"
             ],
             "ref": "manageiq",
@@ -13529,11 +13523,12 @@
             ],
             "name": "python3_test",
             "python_versions": [
+                "2",
                 "3"
             ],
             "ref": "python3_test",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-python3_test",
-            "version": "1.0.0",
+            "version": "0.1.1",
             "versions": [
                 "0.1.1",
                 "0.1.0"
@@ -15031,10 +15026,13 @@
             "author": "st2-dev",
             "content": {
                 "actions": {
-                    "count": 2,
+                    "count": 5,
                     "resources": [
                         "list_vms",
-                        "parse"
+                        "local_script_runner_print_version",
+                        "parse",
+                        "python_runner_print_version",
+                        "python_runner_print_version_local_import"
                     ]
                 },
                 "tests": {
@@ -15052,11 +15050,8 @@
                 "terms"
             ],
             "name": "test",
-            "python_versions": [
-                "3"
-            ],
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-test",
-            "version": "1.0.0",
+            "version": "0.4.0",
             "versions": [
                 "2.0.0",
                 "1.2.0",
@@ -15087,11 +15082,8 @@
                 "test"
             ],
             "name": "test_content_version",
-            "python_versions": [
-                "3"
-            ],
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-test_content_version",
-            "version": "1.0.0"
+            "version": "0.4.0"
         },
         "thehive": {
             "author": "agix",
@@ -15883,9 +15875,6 @@
             "description": "Extreme VDX integration pack.",
             "email": "info@stackstorm.com",
             "name": "vdx",
-            "python_versions": [
-                "2"
-            ],
             "ref": "vdx",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-vdx",
             "version": "0.1.3",
@@ -15928,9 +15917,6 @@
             "description": "VDX automation pack.",
             "email": "yugendra.khonde@gslab.com",
             "name": "vdx_vtep",
-            "python_versions": [
-                "2"
-            ],
             "ref": "vdx_vtep",
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-vdx_vtep",
             "version": "0.1.4",
