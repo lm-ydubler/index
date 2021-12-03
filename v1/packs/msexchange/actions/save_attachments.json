@@ -1,20 +1,24 @@
 {
-    "description": "Search and return items in a folder",
+    "description": "Save file attachments from e-mail. Returns a list/array of fully-qualified filenames (path and filename) of saved attachments.\n",
     "enabled": true,
-    "entry_point": "search_items.py",
-    "name": "search_items",
+    "entry_point": "save_attachments.py",
+    "name": "save_attachments",
     "pack": "msexchange",
     "parameters": {
+        "attachment_format": {
+            "default": "BINARY",
+            "description": "Format to save attachments in.",
+            "enum": [
+                "BINARY",
+                "TEXT"
+            ],
+            "required": true,
+            "type": "string"
+        },
         "folder": {
             "default": "Inbox",
             "description": "Folder to look within",
             "type": "string"
-        },
-        "include_body": {
-            "default": true,
-            "description": "Include the body of the message in the responses",
-            "required": false,
-            "type": "boolean"
         },
         "search_start_date": {
             "description": "[Optional] Date in valid ISO 8601 format to start search or for which to save attachments.\n",
