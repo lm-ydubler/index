@@ -4,17 +4,18 @@ keywords:
 - some
 - search
 - terms
-version: 1.0.0
+version: 0.4.0
 author: st2-dev
 email: info@stackstorm.com
-python_versions:
-- '3'
 content:
   actions:
-    count: 2
+    count: 5
     resources:
     - list_vms
+    - local_script_runner_print_version
     - parse
+    - python_runner_print_version
+    - python_runner_print_version_local_import
   tests:
     count: 1
     resources:
