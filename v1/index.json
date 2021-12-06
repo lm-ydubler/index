@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "generated_ts": 1638560728,
-        "hash": "3686c9fe4d52f9c9fa5d0dff88a4cb06"
+        "generated_ts": 1638806262,
+        "hash": "bdc95b3bd58926f3f2bc9af811b770fd"
     },
     "packs": {
         "acos": {
@@ -13339,19 +13339,24 @@
             "author": "Carlos",
             "content": {
                 "actions": {
-                    "count": 11,
+                    "count": 16,
                     "resources": [
-                        "record_get",
-                        "records_create",
-                        "records_delete",
-                        "records_list",
-                        "run_all_actions",
-                        "servers_list",
-                        "zone_create",
-                        "zone_delete",
-                        "zone_details",
-                        "zones_list",
-                        "zones_search"
+                        "backup",
+                        "create_records",
+                        "create_zone",
+                        "delete_records",
+                        "delete_zone",
+                        "get_config",
+                        "get_details",
+                        "get_record",
+                        "get_records",
+                        "get_servers",
+                        "get_zone",
+                        "get_zones",
+                        "notify",
+                        "restore_zone",
+                        "search",
+                        "suggest_zone"
                     ]
                 },
                 "aliases": {
@@ -13369,8 +13374,10 @@
                 "3"
             ],
             "repo_url": "https://github.com/StackStorm-Exchange/stackstorm-powerdns",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "versions": [
+                "2.0.0",
+                "1.0.1",
                 "1.0.0",
                 "0.0.4",
                 "0.0.3",
